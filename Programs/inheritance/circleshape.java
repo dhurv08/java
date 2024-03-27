@@ -1,4 +1,3 @@
-import java.io.*;
 package inheritance;
 public class circleshape extends shapesh{
     void print(){
