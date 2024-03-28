@@ -14,7 +14,7 @@ public class abstractExtended extends abstractClassq1{
     public static void main(String args[]){
         abstractExtended obj = new abstractExtended();
         obj.name();
-        obj.newFunction();
+        obj.newFunction();  
         System.out.println("Value of a = " + obj.a);
     }
 }
