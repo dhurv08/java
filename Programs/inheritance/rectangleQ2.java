@@ -1,3 +1,4 @@
+package inheritance;
 /*
 Create a class named Rectangle with two data members- length and breadth and a
 function to calculate the area which is length*breadth. The class has three
@@ -32,16 +33,16 @@ public class rectangleQ2{
         return length * breadth;
     }
 
-    public static void main(String[] args) {
-        rectangleQ2 obj = new rectangleQ2();
-        rectangleQ2 obj2 = new rectangleQ2(10,20);
-        rectangleQ2 obj3 = new rectangleQ2(30);
+    // public static void main(String[] args) {
+    //     rectangleQ2 obj = new rectangleQ2();
+    //     rectangleQ2 obj2 = new rectangleQ2(10,20);
+    //     rectangleQ2 obj3 = new rectangleQ2(30);
 
-        System.out.println("Area of rectangle with no params = " + obj.calculate());
-        System.out.println("Area of rectangle with 2 params = " + obj2.calculate());
-        System.out.println("Area of rectangle with 1 param = " + obj3.calculate());
+    //     System.out.println("Area of rectangle with no params = " + obj.calculate());
+    //     System.out.println("Area of rectangle with 2 params = " + obj2.calculate());
+    //     System.out.println("Area of rectangle with 1 param = " + obj3.calculate());
 
 
-    }
+    // }
 
 }
