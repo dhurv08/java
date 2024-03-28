@@ -6,6 +6,6 @@ public abstract class abstractClassq1{
         System.out.println("In new Function of abstractClassQ1");
     }
 
-    final int a = 10;
+    // final abstract int a = 10;
 
 }
