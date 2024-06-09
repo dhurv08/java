@@ -2,7 +2,7 @@ package Programs2;
 import java.util.Scanner;
 public class sumAndAvg {
     public static void main(String[] args) {
-    int sub1 , sub2 , sub3 ,result , avg;
+    int sub1 , sub2 , sub3 ,result ;
         Scanner scanner = new Scanner(System.in);
 
     System.out.println("__Enter the numbers out of 100 only__");
@@ -18,5 +18,7 @@ public class sumAndAvg {
     System.out.println("Average = " + (sub1 + sub2 + sub3)/ 3);
     System.out.println("Total marks = " + (sub1 + sub2 + sub3) + "/300");
     System.out.println("Percentage obtained = " + result);
+
+    scanner.close();
     }
 }
