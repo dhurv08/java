@@ -1,5 +1,5 @@
 package Programs2;
-
+//Create a Java program to declare , initialize and print variables if all data types
 public class Diffdatatypes {
     public static void main(String[] args) {
         int a = 15 ;
