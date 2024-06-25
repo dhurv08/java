@@ -23,16 +23,20 @@ public class deletionFromAnyPosition {
 
 
     //Deletion Part
+    if(n == 0){
+        System.out.println("Array is Empty");
+    }else{
     for (int i = k ; i< n-1 ; i++){           //we use k as the element which has to be deleted and run it till (n-1)position the reach the last element 
         a[i] = a[i+1];                        //use this to put the next element in previous location in the array
     }
     n = n-1;                                  //to cut down the extra storage space after deletion of one element 
 
-
     System.out.print("After Deletion the Array is : ");
     for(int i = 0 ; i<n ; i++){
         System.out.print(a[i] + "\t");
     }
+
+}
     scanner.close();
     }
 }
