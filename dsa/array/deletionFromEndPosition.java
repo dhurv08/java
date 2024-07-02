@@ -17,7 +17,7 @@ public class deletionFromEndPosition {
 
       System.out.print("Before Deletionn , this Array is : ");
       for(int i = 0 ; i < n ; i++){
-        System.err.print(a[i] + "\t");
+        System.out.print(a[i] + "\t");
       }
       
       //Deletion Part
