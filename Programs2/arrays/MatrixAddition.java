@@ -31,6 +31,7 @@ public class MatrixAddition {
             }
         }
 
+        // Addition
         int addition[][] = new int[m][n];
         for(int i = 0 ; i<m ; i++){
             for (int j =  0 ; j< n ;j++){
@@ -44,5 +45,63 @@ public class MatrixAddition {
             }System.out.println();
         }
 
+
+
+        //Sum of diagonal elements 
+        // System.out.println("The original matrix = ");
+        // for(int i = 0 ; i < m ; i++){
+        //     for(int j = 0 ; j< n ; j++){
+        //         System.out.print(matrix1[i][j]+ " ");
+        //     }System.out.println();
+        // }
+       
+        // int diagonal = 0;
+        // for(int i = 0 ; i< m ; i++){
+        //     for(int j = 0 ; j<n ; j++){
+        //         if(i ==j){
+        //         diagonal += matrix1[i][j];
+        //         }
+        //     }
+        // }
+        // System.out.print("Sum of diagonal elements = "+ diagonal);
+
+
+
+
+        //Trasnpose
+        // System.out.println("The original matrix = ");
+        // for(int i = 0 ; i < m ; i++){
+        //     for(int j = 0 ; j< n ; j++){
+        //         System.out.print(matrix1[i][j]+ " ");
+        //     }System.out.println();
+        // }
+        // System.out.println("Trasnpose of the matrix = ");
+        // for(int j = 0 ; j<n ; j++){
+        //     for(int i = 0; i<m ;i++){
+        //         System.out.print(matrix1[i][j] + " ");
+        //     }System.out.println();
+        // }
+
+
+        //Sum of Coloumns 
+    //     System.out.println("The original matrix = ");
+    //     for(int i = 0 ; i < m ; i++){
+    //         for(int j = 0 ; j< n ; j++){
+    //             System.out.print(matrix1[i][j]+ " ");
+    //         }System.out.println();
+    //     }
+    //     int sum = 0 ;
+    //     int [] colSum = new int [n];
+    //     for(int j = 0 ; j< n ; j++){
+    //         for(int i = 0 ; i<m ;i++){
+    //             sum += matrix1[i][j];
+    //         }colSum [j] = sum;
+    //     }
+    //     System.out.println("Sum of coloumns of matrix = ");
+    //     for(int j =0 ; j< n ; j++){
+    //         System.err.print(colSum[j]+ "   ");
+    // }
+
+    scanner.close();
     }
 }
