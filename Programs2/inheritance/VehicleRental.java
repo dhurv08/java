@@ -56,23 +56,23 @@ public class VehicleRental {
 
         }
     }
-
+}
     //main function
     public static void main(String[] args) {
-        VehicleRental vehicleRental = new VehicleRental();
+        // VehicleRental vehicleRental = new VehicleRental();
         //car
-        Car car = vehicleRental.new Car();
+        Car car = new Car();
         car.setData("PB 08 1234", 3000, 500);
         car.calculateRentalCharge(5);
 
         //bike
-        Bike bike = vehicleRental.new Bike();
+        Bike bike = new Bike();
         bike.setData("PB 08 5678" , 5000 );
         bike.calculateRentalCharge(3);
 
         //truck
-        Truck truck = vehicleRental.new Truck();
+        Truck truck = new Truck();
         truck.setData("PB 10 3289", 10000 , 1000);
         truck.calculateRentalCharge(5);
     }
-}
+

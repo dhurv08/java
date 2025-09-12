@@ -4,7 +4,7 @@ import java.util.Scanner;
 E.g.- NUMBER : 12345        OUTPUT : 1+4=5*/
 public class AdditionDigits {
      public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);T
         System.out.print("Enter the number = ");
         int a = scanner.nextInt();
 

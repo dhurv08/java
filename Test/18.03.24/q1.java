@@ -130,11 +130,11 @@ public class q1{
              System.out.println("Notes of " + currency[i] + " = " + notes);
         }
 
-        // if (amount > 0 ){
-        //     for (int i = denominationsNoteCount; i > 0; i++){
+        if (amount > 0 ){
+            for (int i = denominationsNoteCount; i > 0; i++){
                 
-        //     }
-        // }
+            }
+        }
 
     }
 }

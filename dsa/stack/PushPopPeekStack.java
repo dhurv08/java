@@ -1,5 +1,5 @@
 package dsa.stack;
-
+//Using Arrays
 public class PushPopPeekStack {
     public static void main(String[] args) {
         Stack stack = new Stack();
